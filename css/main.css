@@ -1,0 +1,259 @@
+/* CSS Document */
+*{
+	margin: 0 ;
+	padding: 0 ;
+	box-sizing: content-box;
+	font-family:  font_body,'sans-serif';
+}
+.body
+{
+	scroll-behavior: smooth;
+}
+.background
+{
+	background-image: url("../img/back.jpg");
+	background-size: cover;
+	height: 85vh;
+}
+
+.container-fluid {
+  padding: 0;
+}
+.container
+{
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+@font-face {
+ font-family:font_body;
+ src:url('../fonts/Poppins-Regular.ttf') format('truetype'),
+ url('../fonts/Poppins-Medium.ttf') format('embedded-opentype'),
+ url(../fonts/Poppins-Bold.ttf) format('woff');
+ font-weight:normal;
+ font-style:normal;
+}
+
+@font-face
+{
+	font-family: font_cap;
+	src: url(../fonts/BebasNeue-Bold.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*nav*/
+.header_menu
+{
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	background-color: #FFFFFF;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 0;
+	z-index: 1000;
+}
+
+.navbar-nav a
+{
+	font-family: font_body;
+	font-weight: 700;
+	margin-left: 80px;
+}
+/*home*/
+.title
+{
+	margin-top:170px;
+	
+}
+.title h2
+{
+	line-height: 45px;
+}
+.title p
+{
+	font-family:font_body;
+	font-size: 13px;
+	padding-top:10px;
+	color: #322515;
+	opacity: 0.5;
+}
+.button-bg
+{
+	width: 164px;
+	height: 54px;
+	background-color: #322515;
+	text-align: center;
+	color: #F2BE75;
+	font-family: font_body;
+	border-style: none;
+}
+.shoes
+{
+	width: 650px;
+	position: relative;
+	margin-top: 80px;
+}
+
+
+/*about*/
+.about
+{
+	padding-top: 80px;
+}
+
+.hinhanh
+{
+	background-image: url("../img/img-back1.jpg");
+	background-size: cover;
+	height: 500px;
+}
+
+.info_about h2
+{
+	font-family: font_body;
+	font-weight: bold;
+	font-size: 24px;
+	color: #f2be75;
+}
+.info_about p
+{
+	margin-top: 10px;
+	font-family: font_body;
+	line-height:30px;
+	font-weight: 100;
+	font-size: 16px;
+	color: white;
+}
+.show_more
+{
+	width: 164px;
+	height: 54px;
+	background-color: transparent;
+	text-align: center;
+	color: white;
+	font-family: font_body;
+	border:solid thin #FFFFFF;
+	border-radius: none;
+	position: absolute;
+	 
+}
+.show_more:hover
+{
+	background-color:#f2be75;
+	color: #322515;
+	font-family: font_body;
+	font-weight: bold;
+	border: none;
+	
+}
+/*content*/
+
+.content-image img
+{
+	width: 100%;
+}
+.info_cont p
+{
+	color: #232323;
+	font-size: 17px;
+	font-family: font_body;
+	padding-top:40px;
+	padding-bottom: 50px;
+}
+.box
+{
+	background-image: url("../img/img4.jpeg");
+	background-size: cover;
+	
+}
+.box1
+{
+	background-image: url("../img/img5.jpeg");
+	background-size: cover;
+}
+/*cart*/
+.cart
+{
+	background-color: #EDBA73;
+	height: 560px;
+}
+
+.info_cart h1
+{
+	font-size: 60px;
+	color:#322515;
+	font-family: 'Bebas Neue', cursive;
+	font-weight: bold;
+}
+.addtocart
+{
+	width: 164px;
+	height: 54px;
+	background-color: #322515;
+	text-align: center;
+	color:  #EDBA73;
+	font-family: font_body;
+	border-style: none;
+}
+.show_more:hover
+{
+	background-color:#f2be75;
+	color: #322515;
+	font-family: font_body;
+	font-weight: bold;
+	border: none;
+	
+}
+
+/*footer*/
+.footer_color
+{
+	background-color: #232323;
+	height: 340px;
+}
+.quicklink h1
+{
+	color: white;
+	font-family: font_body;
+	font-weight: bold;
+	font-size: 18pt;
+	
+}
+.quicklink ul li
+{
+	list-style: none;
+	text-decoration: none;
+	
+}
+.quicklink ul li a
+{
+	color: #717171;
+	line-height: 30px;
+}
+.quicklink ul li a:hover
+{
+	text-decoration: none;
+	color: white;
+	opacity: 0.8;
+}
+.form-control
+{
+	color: #232323;
+}
+.shoes_cart img
+{
+	width: 520px;
+}
+
+footer
+{
+	background-color: #232323;
+}
